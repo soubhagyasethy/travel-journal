@@ -6,7 +6,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
+      <section className="section-card">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </section>
     </div>
   );
 }
