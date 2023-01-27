@@ -9,7 +9,6 @@ export default function Card(props) {
                     <span className="location-name">{props.item.locationName}</span>
                     <a className="location-link" href={props.item.locationLink} target="_blank" rel="noopener noreferrer">View on Google Maps</a>
                 </div>
-
                 <h1 className="location-title">{props.item.locationTitle}</h1>
                 <p className="timeline">{props.item.timeline}</p>
                 <p className="description">{props.item.description}</p>

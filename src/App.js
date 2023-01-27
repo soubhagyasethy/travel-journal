@@ -6,10 +6,9 @@ import Data from "./data"
 function App() {
 
   let dataCard = Data.map((item) => {
-    return(
-      <Card item = {item} />
-    )
-  })
+    return( <Card item = {item} /> )
+  });
+
   return (
     <div className="App">
       <Header />
