@@ -7,7 +7,7 @@ export default function Card(props) {
                 <div className="location">
                     <img className="location-icon" src="../images/location.svg" alt="location icon"/>
                     <span className="location-name">{props.item.locationName}</span>
-                    <a className="location-link" href={props.item.locationLink}>View on Google Maps</a>
+                    <a className="location-link" href={props.item.locationLink} target="_blank" rel="noopener noreferrer">View on Google Maps</a>
                 </div>
 
                 <h1 className="location-title">{props.item.locationTitle}</h1>
