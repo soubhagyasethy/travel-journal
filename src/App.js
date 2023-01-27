@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <Header />
       <section className="section-card">
-        <Card />
+        <Card
+            
+        />
         <Card />
         <Card />
         <Card />
