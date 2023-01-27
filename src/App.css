@@ -97,6 +97,10 @@
   display: inline;
 }
 
+.location-link:hover {
+  color: #F55A5A;
+  transition: 0.2s;
+}
 .location-title {
   font-size: large;
   font-weight: 900;
@@ -106,7 +110,7 @@
 .timeline {
   font-size: x-small;
   font-weight: bolder;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
 }
 
 .description {
